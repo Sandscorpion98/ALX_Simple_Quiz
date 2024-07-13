@@ -8,7 +8,7 @@ function checkAnswer() {
     document.querySelector('input[name="quiz"]:checked');
     let userAnswer = document.querySelector('input[name="quiz"]:checked').value;
      
-    if (correctAnswer == userAnswer) {
+    if (correctAnswer === userAnswer) {
     
         document.getElementById("feedback").textContent = "Correct! Well done.";
     }
